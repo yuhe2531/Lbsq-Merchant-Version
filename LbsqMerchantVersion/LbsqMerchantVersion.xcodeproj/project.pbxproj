@@ -61,6 +61,13 @@
 		3FA0BF051B83010F00FD42A0 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BEF21B83010F00FD42A0 /* UIProgressView+AFNetworking.m */; };
 		3FA0BF061B83010F00FD42A0 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BEF41B83010F00FD42A0 /* UIRefreshControl+AFNetworking.m */; };
 		3FA0BF071B83010F00FD42A0 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BEF61B83010F00FD42A0 /* UIWebView+AFNetworking.m */; };
+		3FA0BF0C1B830CC600FD42A0 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF0B1B830CC600FD42A0 /* TabbarViewController.m */; };
+		3FA0BF0F1B830CE700FD42A0 /* HomeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF0E1B830CE700FD42A0 /* HomeNavViewController.m */; };
+		3FA0BF121B830D0B00FD42A0 /* ScanNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF111B830D0B00FD42A0 /* ScanNavViewController.m */; };
+		3FA0BF151B830D1700FD42A0 /* MineNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF141B830D1700FD42A0 /* MineNavViewController.m */; };
+		3FA0BF1A1B830DD900FD42A0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF191B830DD900FD42A0 /* HomeViewController.m */; };
+		3FA0BF1D1B830DEE00FD42A0 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF1C1B830DEE00FD42A0 /* MineViewController.m */; };
+		3FA0BF201B830DFC00FD42A0 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF1F1B830DFC00FD42A0 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +193,20 @@
 		3FA0BEF51B83010F00FD42A0 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		3FA0BEF61B83010F00FD42A0 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3FA0BF081B8301CF00FD42A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3FA0BF0A1B830CC600FD42A0 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		3FA0BF0B1B830CC600FD42A0 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		3FA0BF0D1B830CE700FD42A0 /* HomeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavViewController.h; sourceTree = "<group>"; };
+		3FA0BF0E1B830CE700FD42A0 /* HomeNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavViewController.m; sourceTree = "<group>"; };
+		3FA0BF101B830D0B00FD42A0 /* ScanNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanNavViewController.h; sourceTree = "<group>"; };
+		3FA0BF111B830D0B00FD42A0 /* ScanNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanNavViewController.m; sourceTree = "<group>"; };
+		3FA0BF131B830D1700FD42A0 /* MineNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineNavViewController.h; sourceTree = "<group>"; };
+		3FA0BF141B830D1700FD42A0 /* MineNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineNavViewController.m; sourceTree = "<group>"; };
+		3FA0BF181B830DD900FD42A0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3FA0BF191B830DD900FD42A0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3FA0BF1B1B830DEE00FD42A0 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		3FA0BF1C1B830DEE00FD42A0 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		3FA0BF1E1B830DFC00FD42A0 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		3FA0BF1F1B830DFC00FD42A0 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +248,9 @@
 		3FA0BE481B82B8E700FD42A0 /* LbsqMerchantVersion */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0BF171B830DC100FD42A0 /* Mine */,
+				3FA0BF161B830DB700FD42A0 /* Home */,
+				3FA0BF091B830C6100FD42A0 /* MainControllers */,
 				3FA0BE4D1B82B8E700FD42A0 /* AppDelegate.h */,
 				3FA0BE4E1B82B8E700FD42A0 /* AppDelegate.m */,
 				3FA0BE501B82B8E700FD42A0 /* ViewController.h */,
@@ -428,6 +452,41 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		3FA0BF091B830C6100FD42A0 /* MainControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0BF0A1B830CC600FD42A0 /* TabbarViewController.h */,
+				3FA0BF0B1B830CC600FD42A0 /* TabbarViewController.m */,
+				3FA0BF0D1B830CE700FD42A0 /* HomeNavViewController.h */,
+				3FA0BF0E1B830CE700FD42A0 /* HomeNavViewController.m */,
+				3FA0BF101B830D0B00FD42A0 /* ScanNavViewController.h */,
+				3FA0BF111B830D0B00FD42A0 /* ScanNavViewController.m */,
+				3FA0BF131B830D1700FD42A0 /* MineNavViewController.h */,
+				3FA0BF141B830D1700FD42A0 /* MineNavViewController.m */,
+			);
+			name = MainControllers;
+			sourceTree = "<group>";
+		};
+		3FA0BF161B830DB700FD42A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0BF181B830DD900FD42A0 /* HomeViewController.h */,
+				3FA0BF191B830DD900FD42A0 /* HomeViewController.m */,
+				3FA0BF1E1B830DFC00FD42A0 /* ScanViewController.h */,
+				3FA0BF1F1B830DFC00FD42A0 /* ScanViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3FA0BF171B830DC100FD42A0 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0BF1B1B830DEE00FD42A0 /* MineViewController.h */,
+				3FA0BF1C1B830DEE00FD42A0 /* MineViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA0BF051B83010F00FD42A0 /* UIProgressView+AFNetworking.m in Sources */,
+				3FA0BF151B830D1700FD42A0 /* MineNavViewController.m in Sources */,
 				3FA0BEA31B8300AC00FD42A0 /* UIImageView+HighlightedWebCache.m in Sources */,
 				3FA0BF061B83010F00FD42A0 /* UIRefreshControl+AFNetworking.m in Sources */,
 				3FA0BEA11B8300AC00FD42A0 /* UIImage+MultiFormat.m in Sources */,
@@ -539,6 +599,7 @@
 				3FA0BF041B83010F00FD42A0 /* UIImageView+AFNetworking.m in Sources */,
 				3FA0BEFC1B83010F00FD42A0 /* AFURLConnectionOperation.m in Sources */,
 				3FA0BE731B8300A300FD42A0 /* UIViewAdditions.m in Sources */,
+				3FA0BF201B830DFC00FD42A0 /* ScanViewController.m in Sources */,
 				3FA0BEFF1B83010F00FD42A0 /* AFURLSessionManager.m in Sources */,
 				3FA0BEFD1B83010F00FD42A0 /* AFURLRequestSerialization.m in Sources */,
 				3FA0BE991B8300AC00FD42A0 /* SDWebImageCompat.m in Sources */,
@@ -548,17 +609,22 @@
 				3FA0BEFB1B83010F00FD42A0 /* AFSecurityPolicy.m in Sources */,
 				3FA0BEC41B8300C800FD42A0 /* MJRefreshComponent.m in Sources */,
 				3FA0BEC51B8300C800FD42A0 /* MJRefreshConst.m in Sources */,
+				3FA0BF121B830D0B00FD42A0 /* ScanNavViewController.m in Sources */,
 				3FA0BEFA1B83010F00FD42A0 /* AFNetworkReachabilityManager.m in Sources */,
 				3FA0BEFE1B83010F00FD42A0 /* AFURLResponseSerialization.m in Sources */,
+				3FA0BF1A1B830DD900FD42A0 /* HomeViewController.m in Sources */,
 				3FA0BE9E1B8300AC00FD42A0 /* SDWebImagePrefetcher.m in Sources */,
 				3FA0BE521B82B8E700FD42A0 /* ViewController.m in Sources */,
 				3FA0BEF91B83010F00FD42A0 /* AFHTTPSessionManager.m in Sources */,
+				3FA0BF1D1B830DEE00FD42A0 /* MineViewController.m in Sources */,
 				3FA0BE4F1B82B8E700FD42A0 /* AppDelegate.m in Sources */,
 				3FA0BEC71B8300C800FD42A0 /* MJRefreshGifFooter.m in Sources */,
 				3FA0BECB1B8300C800FD42A0 /* MJRefreshLegendHeader.m in Sources */,
 				3FA0BEC81B8300C800FD42A0 /* MJRefreshGifHeader.m in Sources */,
+				3FA0BF0F1B830CE700FD42A0 /* HomeNavViewController.m in Sources */,
 				3FA0BEC91B8300C800FD42A0 /* MJRefreshHeader.m in Sources */,
 				3FA0BEA21B8300AC00FD42A0 /* UIImage+WebP.m in Sources */,
+				3FA0BF0C1B830CC600FD42A0 /* TabbarViewController.m in Sources */,
 				3FA0BEA41B8300AC00FD42A0 /* UIImageView+WebCache.m in Sources */,
 				3FA0BF001B83010F00FD42A0 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				3FA0BE9B1B8300AC00FD42A0 /* SDWebImageDownloader.m in Sources */,

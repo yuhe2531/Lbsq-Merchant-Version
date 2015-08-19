@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScanNavViewController : UINavigationController
+@interface ScanNavViewController : UINavigationController<UIGestureRecognizerDelegate>
 
 @end

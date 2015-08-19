@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeNavViewController : UINavigationController
+@interface HomeNavViewController : UINavigationController<UIGestureRecognizerDelegate>
 
 @end

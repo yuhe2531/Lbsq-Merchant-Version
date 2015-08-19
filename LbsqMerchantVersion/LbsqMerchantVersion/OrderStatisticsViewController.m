@@ -1,37 +1,35 @@
 //
-//  HomeNavViewController.m
+//  OrderStatisticsViewController.m
 //  LbsqMerchantVersion
 //
-//  Created by Runkun1 on 15/8/18.
+//  Created by Runkun1 on 15/8/19.
 //  Copyright (c) 2015年 Runkun. All rights reserved.
 //
 
-#import "HomeNavViewController.h"
+#import "OrderStatisticsViewController.h"
 
-@interface HomeNavViewController ()
+@interface OrderStatisticsViewController ()
 
 @end
 
-@implementation HomeNavViewController
+@implementation OrderStatisticsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    id target = self.interactivePopGestureRecognizer.delegate;
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
-    pan.delegate = self;
-    [self.view addGestureRecognizer:pan];
-    self.interactivePopGestureRecognizer.enabled = NO;
-    
+    self.view.backgroundColor = kBackgroundColor;
+    self.navigationItem.titleView = [[YanMethodManager defaultManager] navibarTitle:@"订单统计"];
+    [[YanMethodManager defaultManager] popToViewControllerOnClicked:self selector:@selector(popInOrderStatisticsVC)];
     // Do any additional setup after loading the view.
 }
 
--(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+-(void)viewWillAppear:(BOOL)animated
 {
-    if (self.childViewControllers.count == 1) {
-        return NO;
-    }
-    return YES;
+    ((TabbarViewController *)self.tabBarController).tabBarView.hidden = YES;
+}
+
+-(void)popInOrderStatisticsVC
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

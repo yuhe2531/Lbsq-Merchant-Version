@@ -16,6 +16,7 @@
 #import "YanMethodManager.h"
 #import "MBProgressHUD.h"
 #import "ControlExtension.h"
+#import "TabbarViewController.h"
 
 #define kScreen_bounds [[UIScreen mainScreen] bounds]
 #define kScreen_width [[UIScreen mainScreen] bounds].size.width

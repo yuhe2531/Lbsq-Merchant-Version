@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MineNavViewController : UINavigationController
+@interface MineNavViewController : UINavigationController<UIGestureRecognizerDelegate>
 
 @end

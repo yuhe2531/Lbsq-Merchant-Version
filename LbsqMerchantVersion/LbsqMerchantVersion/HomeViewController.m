@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "DayTurnoverStatisticView.h"
 #import "HomeBtnView.h"
+#import "OrderStatisticsViewController.h"
 
 @interface HomeViewController ()
 
@@ -76,8 +77,8 @@
     NSLog(@"======= btn tag = %ld",button.tag);
     switch (button.tag) {
         case 201:{//订单统计
-            
-            
+            OrderStatisticsViewController *orderVC = [[OrderStatisticsViewController alloc] init];
+            [self.navigationController pushViewController:orderVC animated:YES];
             break;
         }
         case 202:{//商品管理
@@ -94,6 +95,11 @@
         default:
             break;
     }
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    ((TabbarViewController *)self.tabBarController).tabBarView.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

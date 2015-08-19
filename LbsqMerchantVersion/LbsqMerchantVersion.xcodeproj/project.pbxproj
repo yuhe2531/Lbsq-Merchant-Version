@@ -75,6 +75,8 @@
 		3FA0BF291B831BE900FD42A0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF281B831BE900FD42A0 /* MBProgressHUD.m */; };
 		3FED752B1B8421E400DD53B9 /* HomeBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED752A1B8421E400DD53B9 /* HomeBtnView.m */; };
 		3FED752F1B8432A800DD53B9 /* OrderStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED752E1B8432A800DD53B9 /* OrderStatisticsViewController.m */; };
+		3FED75321B844E0000DD53B9 /* OrderStatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED75311B844E0000DD53B9 /* OrderStatisticsTableViewCell.m */; };
+		3FED75351B8451AF00DD53B9 /* ScrollHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED75341B8451AF00DD53B9 /* ScrollHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +230,10 @@
 		3FED752A1B8421E400DD53B9 /* HomeBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBtnView.m; sourceTree = "<group>"; };
 		3FED752D1B8432A800DD53B9 /* OrderStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderStatisticsViewController.h; sourceTree = "<group>"; };
 		3FED752E1B8432A800DD53B9 /* OrderStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStatisticsViewController.m; sourceTree = "<group>"; };
+		3FED75301B844E0000DD53B9 /* OrderStatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderStatisticsTableViewCell.h; sourceTree = "<group>"; };
+		3FED75311B844E0000DD53B9 /* OrderStatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStatisticsTableViewCell.m; sourceTree = "<group>"; };
+		3FED75331B8451AF00DD53B9 /* ScrollHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollHeaderView.h; sourceTree = "<group>"; };
+		3FED75341B8451AF00DD53B9 /* ScrollHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -534,6 +540,10 @@
 			children = (
 				3FED752D1B8432A800DD53B9 /* OrderStatisticsViewController.h */,
 				3FED752E1B8432A800DD53B9 /* OrderStatisticsViewController.m */,
+				3FED75301B844E0000DD53B9 /* OrderStatisticsTableViewCell.h */,
+				3FED75311B844E0000DD53B9 /* OrderStatisticsTableViewCell.m */,
+				3FED75331B8451AF00DD53B9 /* ScrollHeaderView.h */,
+				3FED75341B8451AF00DD53B9 /* ScrollHeaderView.m */,
 			);
 			name = OrderStatistics;
 			sourceTree = "<group>";
@@ -663,6 +673,7 @@
 				3FA0BEFB1B83010F00FD42A0 /* AFSecurityPolicy.m in Sources */,
 				3FA0BEC41B8300C800FD42A0 /* MJRefreshComponent.m in Sources */,
 				3FA0BEC51B8300C800FD42A0 /* MJRefreshConst.m in Sources */,
+				3FED75351B8451AF00DD53B9 /* ScrollHeaderView.m in Sources */,
 				3FA0BF121B830D0B00FD42A0 /* ScanNavViewController.m in Sources */,
 				3FA0BEFA1B83010F00FD42A0 /* AFNetworkReachabilityManager.m in Sources */,
 				3FED752F1B8432A800DD53B9 /* OrderStatisticsViewController.m in Sources */,
@@ -674,6 +685,7 @@
 				3FA0BF1D1B830DEE00FD42A0 /* MineViewController.m in Sources */,
 				3FA0BE4F1B82B8E700FD42A0 /* AppDelegate.m in Sources */,
 				3FA0BEC71B8300C800FD42A0 /* MJRefreshGifFooter.m in Sources */,
+				3FED75321B844E0000DD53B9 /* OrderStatisticsTableViewCell.m in Sources */,
 				3FA0BECB1B8300C800FD42A0 /* MJRefreshLegendHeader.m in Sources */,
 				3FA0BEC81B8300C800FD42A0 /* MJRefreshGifHeader.m in Sources */,
 				3FA0BF0F1B830CE700FD42A0 /* HomeNavViewController.m in Sources */,

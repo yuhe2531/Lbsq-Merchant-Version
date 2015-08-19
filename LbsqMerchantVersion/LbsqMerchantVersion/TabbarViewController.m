@@ -23,6 +23,8 @@
     tabBarView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:tabBarView];
     
+    [YanMethodManager lineViewWithFrame:CGRectMake(0, 0, tabBarView.width, 0.5) superView:tabBarView];
+    NSArray *titles = @[@"首页", @"", @"我的"];
     for (int i = 0; i < 3; i++) {
         if (i == 1) {
             UIButton *scanBtn = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -33,7 +35,8 @@
             [scanBtn addTarget:self action:@selector(tabbarButtonsAction:) forControlEvents:UIControlEventTouchUpInside];
             [tabBarView addSubview:scanBtn];
         } else {
-            TabBarItem *itemView = [[TabBarItem alloc] initWithFrame:CGRectMake(i*kScreen_width/3, 0, kScreen_width/3, tabBarView.height) image:nil title:@"测试" selectedImage:nil];
+            TabBarItem *itemView = [[TabBarItem alloc] initWithFrame:CGRectMake(i*kScreen_width/3, 0, kScreen_width/3, tabBarView.height) image:nil title:titles[i] selectedImage:nil];
+            itemView.tag = 150 + i;// 150 152
             itemView.button.tag = 100 + i;
             [itemView.button addTarget:self action:@selector(tabbarButtonsAction:) forControlEvents:UIControlEventTouchUpInside];
             [tabBarView addSubview:itemView];

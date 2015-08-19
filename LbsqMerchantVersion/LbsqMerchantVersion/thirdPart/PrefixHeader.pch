@@ -15,6 +15,7 @@
 #import "UIViewAdditions.h"
 #import "YanMethodManager.h"
 #import "MBProgressHUD.h"
+#import "ControlExtension.h"
 
 #define kScreen_bounds [[UIScreen mainScreen] bounds]
 #define kScreen_width [[UIScreen mainScreen] bounds].size.width
@@ -27,6 +28,10 @@
 #define kDividColor [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:1.0]
 #define kBackgroundColor [UIColor colorWithRed:(235/255.0) green:(235/255.0) blue:(235/255.0) alpha:1.0]
 
+#define kBlack_Color_1 [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:1.0]
+#define kBlack_Color_2 [UIColor colorWithRed:81/255.0 green:75/255.0 blue:75/255.0 alpha:1.0]
+#define kBlack_Color_3 [UIColor colorWithRed:193/255.0 green:192/255.0 blue:194/255.0 alpha:1.0]
+
 //字体
 #define kFontSize_1 17
 #define kFontSize_2 15
@@ -34,7 +39,7 @@
 #define kFontSize_4 11
 
 //去NSLog
-#if 0
+#if 1
 
 #define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else

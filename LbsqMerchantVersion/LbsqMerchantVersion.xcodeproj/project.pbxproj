@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8BE1B81B840D8E004F7BD4 /* DayTurnoverStatisticView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE1B71B840D8E004F7BD4 /* DayTurnoverStatisticView.m */; };
+		3F8BE1BB1B841131004F7BD4 /* ControlExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE1BA1B841131004F7BD4 /* ControlExtension.m */; };
 		3FA0BE4C1B82B8E700FD42A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BE4B1B82B8E700FD42A0 /* main.m */; };
 		3FA0BE4F1B82B8E700FD42A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BE4E1B82B8E700FD42A0 /* AppDelegate.m */; };
 		3FA0BE521B82B8E700FD42A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BE511B82B8E700FD42A0 /* ViewController.m */; };
@@ -71,6 +73,7 @@
 		3FA0BF231B83153E00FD42A0 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF221B83153E00FD42A0 /* TabBarItem.m */; };
 		3FA0BF261B831B6800FD42A0 /* YanMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF251B831B6800FD42A0 /* YanMethodManager.m */; };
 		3FA0BF291B831BE900FD42A0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0BF281B831BE900FD42A0 /* MBProgressHUD.m */; };
+		3FED752B1B8421E400DD53B9 /* HomeBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED752A1B8421E400DD53B9 /* HomeBtnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F8BE1B61B840D8E004F7BD4 /* DayTurnoverStatisticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayTurnoverStatisticView.h; sourceTree = "<group>"; };
+		3F8BE1B71B840D8E004F7BD4 /* DayTurnoverStatisticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayTurnoverStatisticView.m; sourceTree = "<group>"; };
+		3F8BE1B91B841131004F7BD4 /* ControlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlExtension.h; sourceTree = "<group>"; };
+		3F8BE1BA1B841131004F7BD4 /* ControlExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlExtension.m; sourceTree = "<group>"; };
 		3FA0BE461B82B8E700FD42A0 /* LbsqMerchantVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LbsqMerchantVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA0BE4A1B82B8E700FD42A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA0BE4B1B82B8E700FD42A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -216,6 +223,8 @@
 		3FA0BF251B831B6800FD42A0 /* YanMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YanMethodManager.m; sourceTree = "<group>"; };
 		3FA0BF271B831BE900FD42A0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		3FA0BF281B831BE900FD42A0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3FED75291B8421E400DD53B9 /* HomeBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBtnView.h; sourceTree = "<group>"; };
+		3FED752A1B8421E400DD53B9 /* HomeBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBtnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +245,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8BE1B51B840D59004F7BD4 /* homeViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F8BE1B61B840D8E004F7BD4 /* DayTurnoverStatisticView.h */,
+				3F8BE1B71B840D8E004F7BD4 /* DayTurnoverStatisticView.m */,
+				3FED75291B8421E400DD53B9 /* HomeBtnView.h */,
+				3FED752A1B8421E400DD53B9 /* HomeBtnView.m */,
+			);
+			name = homeViews;
+			sourceTree = "<group>";
+		};
 		3FA0BE3D1B82B8E700FD42A0 = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				3FA0BF081B8301CF00FD42A0 /* PrefixHeader.pch */,
+				3F8BE1B91B841131004F7BD4 /* ControlExtension.h */,
+				3F8BE1BA1B841131004F7BD4 /* ControlExtension.m */,
 				3FA0BF241B831B6800FD42A0 /* YanMethodManager.h */,
 				3FA0BF251B831B6800FD42A0 /* YanMethodManager.m */,
 				3FA0BF271B831BE900FD42A0 /* MBProgressHUD.h */,
@@ -489,6 +511,7 @@
 				3FA0BF191B830DD900FD42A0 /* HomeViewController.m */,
 				3FA0BF1E1B830DFC00FD42A0 /* ScanViewController.h */,
 				3FA0BF1F1B830DFC00FD42A0 /* ScanViewController.m */,
+				3F8BE1B51B840D59004F7BD4 /* homeViews */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -609,6 +632,7 @@
 				3FA0BF061B83010F00FD42A0 /* UIRefreshControl+AFNetworking.m in Sources */,
 				3FA0BF231B83153E00FD42A0 /* TabBarItem.m in Sources */,
 				3FA0BEA11B8300AC00FD42A0 /* UIImage+MultiFormat.m in Sources */,
+				3FED752B1B8421E400DD53B9 /* HomeBtnView.m in Sources */,
 				3FA0BE9C1B8300AC00FD42A0 /* SDWebImageDownloaderOperation.m in Sources */,
 				3FA0BECD1B8300C800FD42A0 /* UIScrollView+MJRefresh.m in Sources */,
 				3FA0BF021B83010F00FD42A0 /* UIAlertView+AFNetworking.m in Sources */,
@@ -642,6 +666,7 @@
 				3FA0BEC91B8300C800FD42A0 /* MJRefreshHeader.m in Sources */,
 				3FA0BEA21B8300AC00FD42A0 /* UIImage+WebP.m in Sources */,
 				3FA0BF0C1B830CC600FD42A0 /* TabbarViewController.m in Sources */,
+				3F8BE1B81B840D8E004F7BD4 /* DayTurnoverStatisticView.m in Sources */,
 				3FA0BEA41B8300AC00FD42A0 /* UIImageView+WebCache.m in Sources */,
 				3FA0BF001B83010F00FD42A0 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				3FA0BE9B1B8300AC00FD42A0 /* SDWebImageDownloader.m in Sources */,
@@ -649,6 +674,7 @@
 				3FA0BEF71B83010F00FD42A0 /* AFHTTPRequestOperation.m in Sources */,
 				3FA0BECA1B8300C800FD42A0 /* MJRefreshLegendFooter.m in Sources */,
 				3FA0BEA51B8300AC00FD42A0 /* UIView+WebCacheOperation.m in Sources */,
+				3F8BE1BB1B841131004F7BD4 /* ControlExtension.m in Sources */,
 				3FA0BE9F1B8300AC00FD42A0 /* UIButton+WebCache.m in Sources */,
 				3FA0BF071B83010F00FD42A0 /* UIWebView+AFNetworking.m in Sources */,
 				3FA0BF011B83010F00FD42A0 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
